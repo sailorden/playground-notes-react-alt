@@ -9,7 +9,8 @@ localStorage = localStorage || [
   {id: 1, note: 'I am a sample note.'},
   {id: 2, note: 'Delete me with the X button on lower right of note'},
   {id: 3, note: 'Add another note with the + button on lower right of screen'},
-  {id: 4, note: 'For fun, try searching through your notes :)'}
+  {id: 4, note: 'Where it says "Search my notes..." enter in words you would like to filter a note\'s content by'},
+  {id: 5, note: 'Edit a note by just directly adding/subtracting text to it. It is saved right away upon any change'}
 ];
 
 function updateStorage(data) {

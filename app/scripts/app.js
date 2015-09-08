@@ -74,7 +74,7 @@ var App = React.createClass({
       right: '40px'
     };
 
-    var margin15 = {
+    var margin15 = { // will not be doing this fine grained crap in production obviously
       margin: '15px'
     }
 
@@ -82,6 +82,11 @@ var App = React.createClass({
     return (
       <div style={mainDiv}>
         <h3 style={margin15}>Notes Manager</h3>
+
+        <div className="gh-src" style={margin15}>
+          Source code and walkthrough: <a href="https://github.com/theodoreli/playground-notes-react-alt">https://github.com/theodoreli/playground-notes-react-alt </a>
+        </div>
+
         <input style={margin15} className="filter-field" type="text" placeholder="Search my notes..." onChange={this.filterList}/>
 
         <List items={this.state.items} />
