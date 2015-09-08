@@ -12,10 +12,13 @@ View, create, edit, and delete small notes.
 
 ### Libraries
 - React
+ - to normalized interfacing with DOM and view rendering   
 - Alt (Flux implementation)
+ - for eventing and data modeling 
 - Gulp
- - BrowserSync (How can you not love this)
+ - streaming task runner
 - Store.js
+ - to normalized interfacing with LocalStorage
  - https://github.com/marcuswestin/store.js/
  
 ### Architecture
