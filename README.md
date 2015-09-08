@@ -12,7 +12,7 @@ View, create, edit, and delete small notes.
 
 ### Libraries
 - React
- - to normalized interfacing with DOM and view rendering   
+ - for normalized interfacing with DOM and view rendering   
 - Alt (Flux implementation)
  - for eventing and data modeling 
 - Gulp
